@@ -42,6 +42,15 @@ favicon_dark: ./assets/img/Tsinghua.png
 enable_footnote: false
 
 
+# Visitor Map & Counter
+mapmyvisitors:
+  id: "zL0rb2HGtelD22-Mns4WzwqqOYojT3GNcO3YUTMQxtk"
+
+visitor_counter:
+  enable: true  # Toggle visitor counter badge in footer
+  path: ""      # Optional: custom path for counting, defaults to site.url
+
+
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

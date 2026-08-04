@@ -1,0 +1,8 @@
+{% if site.visitor_counter and site.visitor_counter.enable %}
+<div class="visitor-counter">
+  <span class="visitor-counter-icon">👀</span>
+  <a href="https://visitorbadge.io/status?path={{ site.visitor_counter.path | default: site.url }}" title="Page views">
+    <img src="https://api.visitorbadge.io/api/visitors?path={{ site.visitor_counter.path | default: site.url }}&countColor=%2357068c&labelStyle=upper&style=flat" alt="visitor count" />
+  </a>
+</div>
+{% endif %}

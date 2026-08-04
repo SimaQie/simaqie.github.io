@@ -739,3 +739,33 @@ screen and (max-width: 480px) {
   display: none;
   font-family: monospace;
 }
+
+/* Visitor stats */
+.visitor-stats {
+  margin-top: 2.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+
+  .visitor-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-bottom: 1.2em;
+
+    .visitor-counter-icon {
+      font-size: 1.2em;
+    }
+
+    img {
+      height: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  .mapmyvisitors-widget {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
