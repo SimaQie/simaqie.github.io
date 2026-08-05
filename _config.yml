@@ -43,8 +43,8 @@ enable_footnote: false
 
 
 # Visitor Map & Counter
-mapmyvisitors:
-  id: "zL0rb2HGtelD22-Mns4WzwqqOYojT3GNcO3YUTMQxtk"
+revolvermaps:
+  id: "" # Get your map ID from https://www.revolvermaps.com (free, no signup needed)
 
 visitor_counter:
   enable: true  # Toggle visitor counter badge in footer

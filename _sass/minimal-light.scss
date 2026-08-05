@@ -764,8 +764,12 @@ screen and (max-width: 480px) {
     }
   }
 
-  .mapmyvisitors-widget {
+  .revolvermaps-widget {
     display: inline-block;
     max-width: 100%;
+
+    div {
+      margin: 0 auto;
+    }
   }
 }
