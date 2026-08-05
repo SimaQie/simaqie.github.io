@@ -4,14 +4,12 @@ permalink: /blog/
 title: Blog
 ---
 
-<header class="blog-header">
-  <p class="blog-kicker">TECHNICAL NOTES</p>
+<div class="blog-header">
   <h1 class="blog-heading">Blog</h1>
   <p class="blog-intro">Notes on robotics, embodied AI, and the occasional engineering detour.</p>
-</header>
+</div>
 
-<div class="blog-list">
-  {% for post in site.posts %}
+<div class="blog-list">  {% for post in site.posts %}
   <article class="blog-item">
     <a class="blog-item-thumb" href="{{ post.url }}">
       {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" />{% endif %}

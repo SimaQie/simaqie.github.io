@@ -815,28 +815,27 @@ screen and (max-width: 480px) {
 }
 
 .blog-header {
-  margin-bottom: 2.2em;
-
-  .blog-kicker {
-    margin: 0 0 0.3em;
-    font-size: 0.88em;
-    font-weight: 600;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #57068c;
-  }
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5em;
+  margin-bottom: 1.6em;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1em;
 
   .blog-heading {
-    margin: 0 0 0.4em;
-    font-size: 2.2em;
+    margin: 0;
+    font-size: 1.9em;
     font-weight: 500;
     color: #000;
+    white-space: nowrap;
   }
 
   .blog-intro {
     margin: 0;
-    font-size: 1.05em;
+    font-size: 0.95em;
     color: #777;
+    text-align: right;
   }
 }
 
@@ -1024,6 +1023,15 @@ screen and (max-width: 480px) {
   .blog-page,
   .post-page {
     padding-top: 2em;
+  }
+
+  .blog-header {
+    display: block;
+
+    .blog-intro {
+      text-align: left;
+      margin-top: 0.3em;
+    }
   }
 
   .blog-item {
