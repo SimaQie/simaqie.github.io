@@ -20,7 +20,7 @@
     <div class="periodical"><em>the International Conference of Robotics and Automation <strong>(ICRA)</strong>, 2023, London.</em></div>
     <div class="links">
       <a href="assets/files/REMQA.pptx" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
-      <a href="https://github.com/QieSima" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://github.com/SimaQie" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://ieeexplore.ieee.org/abstract/document/10160748" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
       <!-- <a href="assets/files/JSM2021.bib" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a> -->
       <strong><i style="color:#7b5aa6">Invited Talk</i></strong>
