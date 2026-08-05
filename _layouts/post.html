@@ -36,7 +36,7 @@
   </nav>
 
   <main class="post-page">
-    <p class="post-back"><a href="/blog/">â†?Back to Blog</a></p>
+    <p class="post-back"><a href="/blog/">&larr; Back to Blog</a></p>
 
     <article class="post-article">
       <div class="post-header">
@@ -47,8 +47,8 @@
         <p class="post-meta">
           {{ page.date | date: "%B %d, %Y" }}
           {% assign words = page.content | number_of_words %}
-          Â· {{ words | divided_by: 180 | plus: 1 }} min read
-          {% if page.tags %} Â· {{ page.tags | join: ", " }}{% endif %}
+          &middot; {{ words | divided_by: 180 | plus: 1 }} min read
+          {% if page.tags %} &middot; {{ page.tags | join: ", " }}{% endif %}
         </p>
       </div>
 
@@ -57,11 +57,11 @@
       </div>
     </article>
 
-    <p class="post-back post-back--end"><a href="/blog/">â†?Back to Blog</a></p>
+    <p class="post-back post-back--end"><a href="/blog/">&larr; Back to Blog</a></p>
   </main>
 
   <footer class="blog-footer">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} Â· Powered by Jekyll &amp; <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a></p>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} &middot; Powered by Jekyll &amp; <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a></p>
   </footer>
 
   <script src="{{ site.url }}/assets/js/scale.fix.js"></script>
