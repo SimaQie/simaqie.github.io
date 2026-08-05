@@ -4,11 +4,11 @@ layout: homepage
 
 ## About Me
 
-Welcome! I am a graduate student from Department of Computer Science and Technology, Tsinghua University, fortunately supervised by [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home). Prior to my graduate study, I received my B.Eng. degree from [Tsien's Excellence Education Program](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm), Tsinghua University.
+Welcome! I am currently a Ph.D. student at the Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST). Prior to my doctoral study, I received my M.Sc. degree from the Department of Computer Science and Technology, Tsinghua University, fortunately supervised by [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home), and my B.Eng. degree from [Tsien's Excellence Education Program](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm), Tsinghua University.
 
 My research interest mainly focuses on Embodied Intelligence, Robotic Manipulation and Multimodal learning. My previous work involves the navigation and mobile manipulation in embodied scenarios (AI2-THOR, Habitat et al.). Currently, I am working on leveraging large pre-trained models in embodied intelligence. My ultimate goal is to discover generalizable representations for a wide range of robot skills.
 
-I am currently searching for Ph.D. positions. If you have positions in related subjects, please feel free to contact me.
+I am currently seeking industry or postdoctoral positions in model pretraining and data optimization for embodied intelligence. If you have positions in related areas, please feel free to contact me.
 
 ## News
 
@@ -21,7 +21,7 @@ I am currently searching for Ph.D. positions. If you have positions in related s
 
 ## Education
 
-- Sep 2024 - Present Ph.D. Student, Department of Computer Science and Engineering, Hong Kong University of Science and Technology (HKUST). Research interests: Multimodal Large Models, VLA Model Pretraining, Automated Data Annotation and Ratio Tuning.
+- Sep 2024 - Present Ph.D. Student, Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST).
 - Aug 2020 - Jun 2023 Master Student, Department of Computer Science and Technology, Tsinghua University. Advisor: [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home)
 - Sep 2019 - Feb 2020 Visiting Student, Department of Mechanical Engineering, Georgia Institute of Technology. Advisor: [Prof. Ye Zhao](https://sites.google.com/site/yezhaout)
 - Aug 2016 - Jun 2020 Bachelor Student, School of Aerospace Engineering, Tsinghua University. TEEP (Tsien's Excellence Education Program).
@@ -29,6 +29,9 @@ I am currently searching for Ph.D. positions. If you have positions in related s
 ## Research Interests
 
 - **Embodied Intelligence:** visual language navigation, mobile manipulation, scene understanding
+- **Multimodal Large Models**
+- **VLA Model Pretraining**
+- **Automated Data Annotation and Data Ratio Optimization (DRO)**
 - **Lifelong Learning:** lifelong learning for robotics, knowledge base for lifelong learning
 - **Pretrained Models for Robotics:** visual language foundation models for robotics, imitation learning for downstream tasks
 
