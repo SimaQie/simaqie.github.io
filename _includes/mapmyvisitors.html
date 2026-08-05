@@ -1,5 +1,7 @@
 {% if site.mapmyvisitors.id and site.mapmyvisitors.id != "" %}
 <div class="mapmyvisitors-widget">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d={{ site.mapmyvisitors.id }}&cl=ffffff&w=a"></script>
+  <a href="https://mapmyvisitors.com" target="_blank" rel="noopener" title="Visitor Map" aria-label="Visitor Map">
+    <img src="https://mapmyvisitors.com/map.png?d={{ site.mapmyvisitors.id }}&cl=ffffff" alt="Visitor Map" />
+  </a>
 </div>
 {% endif %}
