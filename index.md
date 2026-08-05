@@ -12,6 +12,7 @@ I am currently searching for Ph.D. positions. If you have positions in related s
 
 ## News
 
+- **\[05/2026\]** Attended the ICRA 2026 with 1 presented poster!
 - **\[10/2023\]** Attended the IROS 2023 with 2 presented posters in Detroit!
 - **\[08/2023\]** Working as a research engineer in Lenovo Research.
 - **\[07/2023\]** Graduated from Tsinghua University with M.Sc. degree in Computer Science.
@@ -20,6 +21,7 @@ I am currently searching for Ph.D. positions. If you have positions in related s
 
 ## Education
 
+- Sep 2024 - Present Ph.D. Student, Department of Computer Science and Engineering, Hong Kong University of Science and Technology (HKUST). Research interests: Multimodal Large Models, VLA Model Pretraining, Automated Data Annotation and Ratio Tuning.
 - Aug 2020 - Jun 2023 Master Student, Department of Computer Science and Technology, Tsinghua University. Advisor: [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home)
 - Sep 2019 - Feb 2020 Visiting Student, Department of Mechanical Engineering, Georgia Institute of Technology. Advisor: [Prof. Ye Zhao](https://sites.google.com/site/yezhaout)
 - Aug 2016 - Jun 2020 Bachelor Student, School of Aerospace Engineering, Tsinghua University. TEEP (Tsien's Excellence Education Program).
