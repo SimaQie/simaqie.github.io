@@ -29,9 +29,7 @@ I am currently seeking industry or postdoctoral positions in model pretraining a
 ## Research Interests
 
 - **Embodied Intelligence:** visual language navigation, mobile manipulation, scene understanding
-- **Multimodal Large Models**
-- **VLA Model Pretraining**
-- **Automated Data Annotation and Data Ratio Optimization (DRO)**
+- **Multimodal Foundation Models for Robotics:** training for target robot tasks with automated data annotation and data ratio optimization (DRO)
 - **Lifelong Learning:** lifelong learning for robotics, knowledge base for lifelong learning
 - **Pretrained Models for Robotics:** visual language foundation models for robotics, imitation learning for downstream tasks
 
