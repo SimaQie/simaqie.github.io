@@ -44,7 +44,7 @@ enable_footnote: false
 
 # Visitor Map & Counter
 mapmyvisitors:
-  id: "zL0rb2HGtelD22-Mns4WzwqqOYojT3GNcO3YUTMQxtk" # TODO: verify this ID in your MapMyVisitors dashboard
+  id: "KqkOMqVSp5x0Vqv2ZTmK94SNoil6m-bQ_CfMAUdWeho" # latest ID from MapMyVisitors dashboard
 
 visitor_counter:
   enable: true  # Toggle visitor counter badge in footer
