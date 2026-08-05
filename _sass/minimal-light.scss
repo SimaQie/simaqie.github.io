@@ -773,3 +773,106 @@ screen and (max-width: 480px) {
     }
   }
 }
+
+/* Top navigation */
+.site-nav {
+  text-align: center;
+  padding: 1em 0 0.5em;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 15px;
+
+  a {
+    margin: 0 1.2em;
+    color: #702b9d;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+
+    &:hover {
+      color: #330662;
+    }
+
+    &.active {
+      color: #330662;
+      border-bottom-color: #57068c;
+    }
+  }
+}
+
+/* Blog listing */
+.blog-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.8em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #e5e5e5;
+
+  .blog-thumb {
+    flex-shrink: 0;
+    margin-right: 1.2em;
+
+    img {
+      width: 160px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid #e5e5e5;
+    }
+  }
+
+  .blog-info {
+    flex: 1;
+  }
+
+  .blog-title {
+    margin: 0 0 0.3em;
+    font-size: 120%;
+
+    a {
+      color: #702b9d;
+
+      &:hover {
+        color: #330662;
+      }
+    }
+  }
+
+  .blog-meta {
+    margin: 0 0 0.4em;
+    font-size: 13px;
+    color: #777;
+  }
+
+  .blog-excerpt {
+    margin: 0;
+    font-size: 15px;
+    color: #595959;
+  }
+}
+
+/* Post page */
+.post-title {
+  font-size: 160%;
+  margin-bottom: 0.2em;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+
+@media print, screen and (max-width: 480px) {
+  .blog-entry {
+    display: block;
+
+    .blog-thumb {
+      margin-bottom: 0.8em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
