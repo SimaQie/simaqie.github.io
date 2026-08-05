@@ -57,6 +57,7 @@ visitor_counter:
 remote_theme: yaoyao-liu/minimal-light
 
 # Blog posts
+future: true  # include posts dated today/forward (build server may be behind in timezone)
 permalink: /blog/:year/:month/:title/
 defaults:
   - scope:
