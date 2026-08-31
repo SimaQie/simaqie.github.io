@@ -28,7 +28,20 @@
   </div>
 </div>
 </li>
-  
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Smooth Computation without Input Delay: Robust Tube-Based Model Predictive Control for Robot Manipulator Planning</div>
+    <div class="author"><strong>Qie Sima</strong> (co-author)</div>
+    <div class="periodical"><em>the International Conference of Robotics and Automation <strong>(ICRA)</strong>, 2024, Yokohama.</em></div>
+    <div class="links">
+      <strong><i style="color:#7b5aa6">Oral Presentation</i></strong>
+    </div>
+  </div>
+</div>
+</li>
 
 </ol>
 </div>
