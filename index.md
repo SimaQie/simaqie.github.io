@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Welcome! I am currently a Ph.D. student in Computer Science at the Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST), fortunately supervised by [Prof. Yike Guo](https://cse.hkust.edu.hk/admin/people/faculty/profile/yikeguo). Prior to my doctoral study, I received my M.Sc. degree from the Department of Computer Science and Technology, Tsinghua University, supervised by [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home), and my B.Eng. degree from [Tsien's Excellence Education Program](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm), Tsinghua University.
+Welcome! I am currently a Ph.D. student in Computer Science at the Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST). Prior to my doctoral study, I received my M.Sc. degree from the Department of Computer Science and Technology, Tsinghua University, supervised by [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home), and my B.Eng. degree from [Tsien's Excellence Education Program](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm), Tsinghua University.
 
 My research interest mainly focuses on **Multi-modal Large Models Pretraining**, **VLA Pre-training** and **Data Auto-labeling & Mixture Optimization** for embodied intelligence. My previous work involves the navigation and mobile manipulation in embodied scenarios (AI2-THOR, Habitat et al.). My ultimate goal is to discover generalizable representations for a wide range of robot skills.
 
@@ -24,7 +24,7 @@ I am currently seeking industry or postdoctoral positions in model pretraining a
 
 ## Education
 
-- Sep 2024 - Present Ph.D. Student in Computer Science, Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST). Advisor: [Prof. Yike Guo](https://cse.hkust.edu.hk/admin/people/faculty/profile/yikeguo). Research focus: Multi-modal Large Models Pretraining, VLA Pre-training, Data Auto-labeling & Mixture Optimization.
+- Sep 2024 - Present Ph.D. Student in Computer Science, Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST). Research focus: Multi-modal Large Models Pretraining, VLA Pre-training, Data Auto-labeling & Mixture Optimization.
 - Sep 2020 - Jun 2023 M.Sc. in Computer Science, Department of Computer Science and Technology, Tsinghua University. Advisor: [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home). Research focus: Robotic Manipulation, Visual Navigation, Imitation Learning.
 - Sep 2016 - Jun 2020 B.Eng. in Engineering Mechanics (Tsien's Excellence Education Program), Tsinghua University.
 
@@ -47,9 +47,6 @@ I am currently seeking industry or postdoctoral positions in model pretraining a
   - Curated large-scale humanoid manipulation pre-training datasets (COCO, Visual Genome, Ego4D) adapted to embodied settings.
   - Evaluated vision backbones (CLIP, MoCo-v3, MAE) for VLA models with multi-modal masking and ablation studies.
   - Co-designed 3D online scene reconstruction for mobile manipulation service robots, validated in real-world trials.
-
-- **Visiting Student Researcher, Georgia Institute of Technology** — Aug 2019 - Feb 2020 (supervised by [Dr. Ye Zhao](https://sites.google.com/site/yezhaout))
-  - Formulated single-point deformation mechanics for soft contact; designed an ADMM-based force feedback trajectory optimizer validated via real-world experiments.
 
 ## Research Interests
 
