@@ -1,7 +1,8 @@
 {% if site.mapmyvisitors.id and site.mapmyvisitors.id != "" %}
 <div class="mapmyvisitors-widget">
-  <a href="https://mapmyvisitors.com/web/1c7a3" target="_blank" rel="noopener" title="Visit tracker" aria-label="Visit tracker">
-    <img src="https://mapmyvisitors.com/map.png?d={{ site.mapmyvisitors.id }}&cl=ffffff" alt="Visit tracker" />
+  <span class="visitor-stats-label">Visitor map</span>
+  <a href="https://mapmyvisitors.com/web/1c7a3" target="_blank" rel="noopener" title="View visitor map" aria-label="View visitor map">
+    <img src="https://mapmyvisitors.com/map.png?d={{ site.mapmyvisitors.id }}&amp;cl=ffffff" alt="Map of approximate visitor locations" width="180" height="114" />
   </a>
 </div>
 {% endif %}

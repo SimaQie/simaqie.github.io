@@ -1,8 +1,8 @@
 {% if site.visitor_counter and site.visitor_counter.enable %}
 <div class="visitor-counter">
-  <span class="visitor-counter-icon">👀</span>
-  <a href="https://visitorbadge.io/status?path={{ site.visitor_counter.path | default: site.url }}" title="Page views">
-    <img src="https://api.visitorbadge.io/api/visitors?path={{ site.visitor_counter.path | default: site.url }}&countColor=%2357068c&labelStyle=upper&style=flat" alt="visitor count" />
+  <span class="visitor-stats-label">Homepage views</span>
+  <a href="https://visitorbadge.io/status?path={{ site.visitor_counter.path | default: site.url }}" target="_blank" rel="noopener" aria-label="View homepage visit statistics" title="Cumulative homepage views">
+    <img src="https://api.visitorbadge.io/api/visitors?path={{ site.visitor_counter.path | default: site.url }}&amp;label=VIEWS&amp;countColor=%2357068c&amp;labelStyle=upper&amp;style=flat" alt="Cumulative homepage view count" height="20" />
   </a>
 </div>
 {% endif %}

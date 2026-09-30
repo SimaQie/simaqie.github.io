@@ -46,7 +46,7 @@ mapmyvisitors:
 
 visitor_counter:
   enable: true  # Toggle visitor counter badge in footer
-  path: ""      # Optional: custom path for counting, defaults to site.url
+  path: ""      # Defaults to site.url; keep this value to preserve the existing count
 
 
 
