@@ -1036,6 +1036,20 @@ screen and (max-width: 480px) {
   line-height: 1.7;
   color: #404040;
 
+  .article-diagram {
+    max-width: 100%;
+    margin: 1.5em 0;
+    overflow-x: auto;
+
+    img {
+      display: block;
+      width: 100%;
+      min-width: 560px;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+
   h2 {
     font-size: 1.4em;
     margin: 1.6em 0 0.6em;

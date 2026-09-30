@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="225" viewBox="0 0 720 225" role="img" aria-labelledby="title desc">
+  <title id="title">Fast verification loop</title>
+  <desc id="desc">LLM generation feeds an automated judge, tests, or Lean. The result drives rapid search and another generation step.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#356eaa" stroke-width="1.8"/></marker>
+  </defs>
+  <rect x="1" y="1" width="718" height="223" rx="16" fill="#f7fafe" stroke="#d8e6f3" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="28" y="65" width="180" height="78" rx="12" fill="#e6efff" stroke="#7a9fe1" stroke-width="2"/>
+    <text x="118" y="101" fill="#17325b" font-size="18" font-weight="700">LLM generation</text>
+    <text x="118" y="124" fill="#4a617e" font-size="14">candidate solutions</text>
+    <rect x="275" y="65" width="190" height="78" rx="12" fill="#e5f8f3" stroke="#63b9a5" stroke-width="2"/>
+    <text x="370" y="98" fill="#174b45" font-size="18" font-weight="700">Automated judge</text>
+    <text x="370" y="122" fill="#4a6b66" font-size="14">tests / proof / Lean</text>
+    <rect x="532" y="65" width="160" height="78" rx="12" fill="#efeafa" stroke="#a58ad1" stroke-width="2"/>
+    <text x="612" y="99" fill="#4a2c75" font-size="18" font-weight="700">Rapid search</text>
+    <text x="612" y="123" fill="#6a5880" font-size="14">filter and retry</text>
+    <text x="240" y="58" fill="#546a82" font-size="13">fast, low-cost</text>
+    <text x="498" y="58" fill="#546a82" font-size="13">feedback</text>
+    <text x="361" y="196" fill="#546a82" font-size="15">The verification result guides the next generation round.</text>
+  </g>
+  <g fill="none" stroke="#356eaa" stroke-width="2.5" marker-end="url(#a)"><path d="M211 105h58"/><path d="M469 105h57"/><path d="M612 149v20H118v-20"/></g>
+</svg>

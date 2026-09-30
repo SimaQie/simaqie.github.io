@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="350" viewBox="0 0 720 350" role="img" aria-labelledby="title desc">
+  <title id="title">AI researcher agent architecture</title>
+  <desc id="desc">The reasoning core exchanges context with an agent orchestrator. It reads scientific literature and memory, while the orchestrator calls CFD, FEM, and DFT solvers. Results feed back into the loop.</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#356eaa" stroke-width="1.8"/></marker></defs>
+  <rect x="1" y="1" width="718" height="348" rx="16" fill="#f7fafe" stroke="#d8e6f3" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="35" y="58" width="270" height="83" rx="12" fill="#e6efff" stroke="#7a9fe1" stroke-width="2"/>
+    <text x="170" y="94" fill="#17325b" font-size="19" font-weight="700">LLM / reasoning core</text>
+    <text x="170" y="120" fill="#4a617e" font-size="14">plans, code, hypotheses</text>
+    <rect x="415" y="58" width="270" height="83" rx="12" fill="#e5f8f3" stroke="#63b9a5" stroke-width="2"/>
+    <text x="550" y="94" fill="#174b45" font-size="19" font-weight="700">Agent orchestrator</text>
+    <text x="550" y="120" fill="#4a6b66" font-size="14">tool use and workflow</text>
+    <text x="360" y="78" fill="#546a82" font-size="13">context &amp; state</text>
+    <text x="170" y="184" fill="#546a82" font-size="13">read / retrieve</text>
+    <text x="550" y="184" fill="#546a82" font-size="13">tool calls / results</text>
+    <rect x="35" y="207" width="270" height="83" rx="12" fill="#efeafa" stroke="#a58ad1" stroke-width="2"/>
+    <text x="170" y="243" fill="#4a2c75" font-size="18" font-weight="700">Scientific literature</text>
+    <text x="170" y="268" fill="#6a5880" font-size="14">and project memory</text>
+    <rect x="415" y="207" width="270" height="83" rx="12" fill="#fff1e3" stroke="#e3ab6d" stroke-width="2"/>
+    <text x="550" y="243" fill="#70401f" font-size="18" font-weight="700">Traditional solvers</text>
+    <text x="550" y="268" fill="#80654e" font-size="14">CFD / FEM / DFT</text>
+    <text x="360" y="329" fill="#546a82" font-size="15">Simulation and experimental feedback refine the next hypothesis.</text>
+  </g>
+  <g fill="none" stroke="#356eaa" stroke-width="2.5" marker-start="url(#a)" marker-end="url(#a)"><path d="M310 101h99"/><path d="M170 147v54"/><path d="M550 147v54"/></g>
+</svg>
