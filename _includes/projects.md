@@ -23,6 +23,27 @@
 <li>
 <div class="pub-row">
 
+  <div class="col-sm-3 abbr abbr--diagram" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/SmoothComputation_MPC.png" class="teaser teaser--diagram img-fluid z-depth-1" alt="Comparison of conventional MPC and robust tube-based smooth MPC computation and trajectories">
+    <abbr class="badge">ICRA</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://ieeexplore.ieee.org/document/10610952">Smooth Computation without Input Delay: Robust Tube-Based Model Predictive Control for Robot Manipulator Planning</a></div>
+    <div class="author">Yu Luo, <b>Qie Sima</b>, Tianying Ji, Fuchun Sun, Huaping Liu, Jianwei Zhang</div>
+    <div class="periodical"><em>2024 IEEE International Conference on Robotics and Automation (ICRA), May 2024. Yokohama, Japan</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2403.01265" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="assets/files/publications.bib" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTeX</a>
+      <strong><i style="color:#7b5aa6">ICRA 2024</i></strong>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/REMQA.gif" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ICRA</abbr>
@@ -94,25 +115,11 @@
 <div class="pub-row">
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Smooth Computation without Input Delay: Robust Tube-Based Model Predictive Control for Robot Manipulator Planning</div>
-    <div class="author">Co-author</div>
-    <div class="periodical"><em>IEEE International Conference on Robotics and Automation (ICRA) <strong> </strong>, 2024</em></div>
-    <div class="links">
-      <strong><i style="color:#7b5aa6">ICRA 2024</i></strong>
-    </div>
-  </div>
-</div>
-</li> 
-
-<li>
-<div class="pub-row">
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title">Scene Graph for Embodied Exploration in Cluttered Scenario</div>
     <div class="author"> <b>Qie Sima</b>, et al.</div>
-    <div class="periodical"><em>ACM/IEEE International Conference on Human-Robot Interaction (HRI) <strong> </strong>, 2023</em></div>
+    <div class="periodical"><em>IEEE International Conference on Robotics and Automation (ICRA), 2023</em></div>
     <div class="links">
-      <strong><i style="color:#7b5aa6">HRI 2023</i></strong>
+      <strong><i style="color:#7b5aa6">ICRA 2023</i></strong>
     </div>
   </div>
 </div>

@@ -213,3 +213,13 @@ screen and (min-width: 480px) {
   margin-bottom: 5px;
   object-fit: cover;
 }
+
+.publications ol.bibliography li .abbr.abbr--diagram {
+  height: auto;
+}
+
+.publications ol.bibliography li .teaser.teaser--diagram {
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
