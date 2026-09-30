@@ -3,23 +3,21 @@ url: "https://simaqie.github.io"
 # Basic Information 
 title: Qie Sima
 # subtitle:
-position: Graduate Research Assistant
+position: Ph.D. Student
 # subposition:
 # subposition_link:
-affiliation: Tsinghua University
-subaffiliation: Department of Computer Science 
-affiliation_link: https://www.tsinghua.edu.cn
-subaffiliation_link: https://www.cs.tsinghua.edu.cn/csen/
+affiliation: Hong Kong University of Science and Technology
+subaffiliation: Academy of Interdisciplinary Studies
+affiliation_link: https://hkust.edu.hk/
+subaffiliation_link: https://hkust.edu.hk/
 email: simaqie@gmail.com
-address: 30 Shuangqing Rd, Beijing, CHINA 100084
-address_link: https://goo.gl/maps/aQZfmiKjQmqbDsVY9
 
 
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Embodied Intelligence, Robotic Manipulation, Multimodal Learning, Tsinghua University
-description: Qie Sima - Graduate Research Assistant at Tsinghua University, working on Embodied Intelligence, Robotic Manipulation and Multimodal Learning.
+keywords: Embodied Intelligence, Vision-Language-Action Models, Robotic Imitation, Data Mixture Optimization, Hong Kong University of Science and Technology
+description: Qie Sima - Ph.D. student at the Hong Kong University of Science and Technology, researching vision-language-action models and data mixture optimization for embodied intelligence.
 canonical: https://simaqie.github.io/
 
 # Links 

@@ -3,7 +3,23 @@
 <div class="publications">
 <ol class="bibliography">
 
- 
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/ProMix.svg" class="teaser img-fluid z-depth-1" alt="ProMix learns data mixture weights with a proxy and reference model before training a VLA model">
+    <abbr class="badge">Research</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">ProMix: Efficient Data Mixture Optimization for Robotic Imitation via Proxy-Reference DRO</div>
+    <div class="author"><b>Qie Sima</b>, et al.</div>
+    <div class="periodical"><em>Ongoing research, 2026</em></div>
+    <div class="links">Learns domain mixture weights with a lightweight proxy and frozen reference model, then transfers the weights to VLA training.</div>
+  </div>
+</div>
+</li>
+
 <li>
 <div class="pub-row">
 
@@ -64,7 +80,7 @@
     <div class="periodical"><em>2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) <strong> </strong>, Oct. 2023. Detroit, USA</em></div>
     <div class="links">
     <a href="https://visual-force-imitation.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
-      <a href="https://ieeexplore.ieee.org/abstract/document/10342201" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10342371" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="assets/files/publications.bib" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTeX</a>
       <strong><i style="color:#7b5aa6">IROS 2023</i></strong>
     </div>
@@ -73,20 +89,6 @@
 </li>
   
 
-
-<li>
-<div class="pub-row">
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">ProMix: Learning Optimal Data Mixtures for Robotic Imitation via Proxy-Reference Distillation</div>
-    <div class="author"> <b>Qie Sima</b>, et al.</div>
-    <div class="periodical"><em>Submitted to ICRA <strong>2026</strong></em></div>
-    <div class="links">
-      <strong><i style="color:#7b5aa6">Under Review</i></strong>
-    </div>
-  </div>
-</div>
-</li> 
 
 <li>
 <div class="pub-row">
