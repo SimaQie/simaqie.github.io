@@ -759,7 +759,7 @@ screen and (max-width: 480px) {
     flex: 0 1 220px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.65em;
     min-height: 155px;
     padding: 0.9em;
@@ -783,13 +783,14 @@ screen and (max-width: 480px) {
 
   .visitor-counter {
     a {
-      min-width: 115px;
-      min-height: 20px;
+      flex: 1;
+      min-width: 120px;
+      min-height: 30px;
     }
 
     img {
       display: block;
-      height: 20px;
+      height: 30px;
       max-width: 100%;
     }
   }
