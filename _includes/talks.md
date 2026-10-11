@@ -32,11 +32,17 @@
 <li>
 <div class="pub-row">
 
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/SmoothComputation_talk.jpg" class="teaser img-fluid z-depth-1" alt="Two robot manipulators compared in a position-reaching experiment">
+    <abbr class="badge">ICRA</abbr>
+  </div>
+
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title">Smooth Computation without Input Delay: Robust Tube-Based Model Predictive Control for Robot Manipulator Planning</div>
     <div class="author"><strong>Qie Sima</strong> (co-author)</div>
     <div class="periodical"><em>the International Conference of Robotics and Automation <strong>(ICRA)</strong>, 2024, Yokohama.</em></div>
     <div class="links">
+      <a href="assets/files/SmoothComputation_ICRA2024_video.mp4" class="btn btn-sm z-depth-0" role="button" download="SmoothComputation_ICRA2024_video.mp4" title="Download supplementary video (MP4, 19 MB)" style="font-size:12px;">Video (MP4)</a>
       <strong><i style="color:#7b5aa6">Oral Presentation</i></strong>
     </div>
   </div>

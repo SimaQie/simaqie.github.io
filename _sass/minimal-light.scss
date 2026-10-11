@@ -32,6 +32,11 @@ a.no-color {
   margin-right: 1rem
 }
 
+.social-icons .x-icon {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
 @media (prefers-color-scheme: dark) {
   .social-icons a {
     color: #b8b8b8 !important;
