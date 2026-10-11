@@ -32,8 +32,10 @@
 <li>
 <div class="pub-row">
 
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/SmoothComputation_talk.jpg" class="teaser img-fluid z-depth-1" alt="Two robot manipulators compared in a position-reaching experiment">
+  <div class="col-sm-3 abbr abbr--diagram" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <a href="assets/img/SmoothComputation_MPC.png" target="_blank" rel="noopener noreferrer" aria-label="View the full-size Smooth Computation method diagram">
+      <img src="assets/img/SmoothComputation_MPC.png" class="teaser teaser--diagram img-fluid z-depth-1" alt="Method diagram comparing conventional MPC with robust tube-based smooth MPC computation and trajectories">
+    </a>
     <abbr class="badge">ICRA</abbr>
   </div>
 
