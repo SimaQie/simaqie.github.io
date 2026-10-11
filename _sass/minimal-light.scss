@@ -1036,6 +1036,26 @@ screen and (max-width: 480px) {
   color: #999;
 }
 
+.post-views {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin: 0 0 1.4em;
+  font-size: 0.85em;
+  color: #777;
+
+  a,
+  img {
+    display: block;
+  }
+
+  img {
+    height: 20px;
+    width: auto;
+  }
+}
+
 .post-content {
   font-size: 1.02em;
   line-height: 1.7;

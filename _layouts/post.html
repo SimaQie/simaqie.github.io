@@ -52,6 +52,7 @@
           &middot; {{ words | divided_by: 180 | plus: 1 }} min read
           {% if page.tags %} &middot; {{ page.tags | join: ", " }}{% endif %}
         </p>
+        {% include post-views.html %}
       </div>
 
       <div class="post-content">

@@ -1,0 +1,9 @@
+{% if site.post_views and site.post_views.enable %}
+{% assign post_counter_path = page.url | absolute_url | url_encode %}
+<p class="post-views">
+  <a href="https://visitorbadge.io/status?path={{ post_counter_path }}" target="_blank" rel="noopener" aria-label="View statistics for this article" title="Cumulative article views; repeat visits may be counted">
+    <img src="https://api.visitorbadge.io/api/visitors?path={{ post_counter_path }}&amp;label=VIEWS&amp;countColor=%2357068c&amp;labelStyle=upper&amp;style=flat" alt="Article view count" height="20" />
+  </a>
+  {% if site.post_views.started_on %}<span>since {{ site.post_views.started_on | date: "%b %d, %Y" }}</span>{% endif %}
+</p>
+{% endif %}

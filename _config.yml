@@ -48,6 +48,11 @@ visitor_counter:
   enable: true  # Toggle visitor counter badge in footer
   path: ""      # Defaults to site.url; keep this value to preserve the existing count
 
+# Each article has its own counter, keyed by its absolute URL.
+post_views:
+  enable: true
+  started_on: 2026-10-12
+
 
 
 # Use this project as a remote theme for GitHub Pages
