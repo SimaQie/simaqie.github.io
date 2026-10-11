@@ -32,11 +32,11 @@
 <li>
 <div class="pub-row">
 
-  <div class="col-sm-3 abbr abbr--motion" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <a href="assets/img/SmoothComputation_trajectory.gif" target="_blank" rel="noopener noreferrer" aria-label="View the UR5 trajectory tracking experiment" title="Real UR5 trajectory tracking with Smooth MPC (2× playback)">
-      <img src="assets/img/SmoothComputation_trajectory.gif" class="teaser teaser--motion img-fluid z-depth-1" alt="UR5 robot arm moving through the trajectory tracking experiment with Smooth MPC" loading="lazy">
+  <div class="col-sm-3 abbr abbr--motion abbr--comparison" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <a href="assets/img/SmoothComputation_comparison.gif" target="_blank" rel="noopener noreferrer" aria-label="View the trajectory tracking comparison" title="Trajectory tracking comparison: Smooth MPC, Time-Triggered, and Optimal">
+      <img src="assets/img/SmoothComputation_comparison.gif" class="teaser teaser--motion img-fluid z-depth-1" alt="Animated trajectory tracking comparison showing Smooth MPC, Time-Triggered, and Optimal trajectories with position error, cost, and control inputs" loading="lazy">
     </a>
-    <div class="teaser-caption">Trajectory tracking · 2×</div>
+    <div class="teaser-caption">Trajectory tracking comparison</div>
     <abbr class="badge">ICRA</abbr>
   </div>
 
