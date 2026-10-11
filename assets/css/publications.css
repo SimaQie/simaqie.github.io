@@ -214,12 +214,21 @@ screen and (min-width: 480px) {
   object-fit: cover;
 }
 
-.publications ol.bibliography li .abbr.abbr--diagram {
+.publications ol.bibliography li .abbr.abbr--diagram,
+.publications ol.bibliography li .abbr.abbr--motion {
   height: auto;
 }
 
-.publications ol.bibliography li .teaser.teaser--diagram {
+.publications ol.bibliography li .teaser.teaser--diagram,
+.publications ol.bibliography li .teaser.teaser--motion {
   height: auto;
   max-width: 100%;
   object-fit: contain;
+}
+
+.publications ol.bibliography li .teaser-caption {
+  margin-left: 5px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.4;
 }

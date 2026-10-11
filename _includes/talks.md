@@ -32,10 +32,11 @@
 <li>
 <div class="pub-row">
 
-  <div class="col-sm-3 abbr abbr--diagram" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <a href="assets/img/SmoothComputation_MPC.png" target="_blank" rel="noopener noreferrer" aria-label="View the full-size Smooth Computation method diagram">
-      <img src="assets/img/SmoothComputation_MPC.png" class="teaser teaser--diagram img-fluid z-depth-1" alt="Method diagram comparing conventional MPC with robust tube-based smooth MPC computation and trajectories">
+  <div class="col-sm-3 abbr abbr--motion" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <a href="assets/img/SmoothComputation_trajectory.gif" target="_blank" rel="noopener noreferrer" aria-label="View the UR5 trajectory tracking experiment" title="Real UR5 trajectory tracking with Smooth MPC (2× playback)">
+      <img src="assets/img/SmoothComputation_trajectory.gif" class="teaser teaser--motion img-fluid z-depth-1" alt="UR5 robot arm moving through the trajectory tracking experiment with Smooth MPC" loading="lazy">
     </a>
+    <div class="teaser-caption">Trajectory tracking · 2×</div>
     <abbr class="badge">ICRA</abbr>
   </div>
 
