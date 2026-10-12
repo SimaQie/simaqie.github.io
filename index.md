@@ -8,7 +8,7 @@ Welcome! I am currently a Ph.D. student in Computer Science at the Academy of In
 
 My research interest mainly focuses on **Multi-modal Large Models Pretraining**, **VLA Pre-training** and **Data Auto-labeling & Mixture Optimization** for embodied intelligence. My previous work involves the navigation and mobile manipulation in embodied scenarios (AI2-THOR, Habitat et al.). My ultimate goal is to discover generalizable representations for a wide range of robot skills.
 
-I am currently seeking industry or postdoctoral positions in model pretraining and data optimization for embodied intelligence. If you have positions in related areas, please feel free to contact me.
+<p class="availability">I am currently seeking industry or postdoctoral positions in model pretraining and data optimization for embodied intelligence. If you have positions in related areas, please feel free to contact me.</p>
 
 ## News
 
@@ -24,9 +24,9 @@ I am currently seeking industry or postdoctoral positions in model pretraining a
 
 ## Education
 
-- Sep 2024 - Present Ph.D. Student in Computer Science, Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST). Research focus: Multi-modal Large Models Pretraining, VLA Pre-training, Data Auto-labeling & Mixture Optimization.
-- Sep 2020 - Jun 2023 M.Sc. in Computer Science, Department of Computer Science and Technology, Tsinghua University. Advisor: [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home). Research focus: Robotic Manipulation, Visual Navigation, Imitation Learning.
-- Sep 2016 - Jun 2020 B.Eng. in Engineering Mechanics (Tsien's Excellence Education Program), Tsinghua University.
+- <span class="entry-date">Sep 2024 - Present</span> Ph.D. Student in Computer Science, Academy of Interdisciplinary Studies (AIS), Hong Kong University of Science and Technology (HKUST). Research focus: Multi-modal Large Models Pretraining, VLA Pre-training, Data Auto-labeling & Mixture Optimization.
+- <span class="entry-date">Sep 2020 - Jun 2023</span> M.Sc. in Computer Science, Department of Computer Science and Technology, Tsinghua University. Advisor: [Prof. Huaping Liu](https://sites.google.com/site/thuliuhuaping/home). Research focus: Robotic Manipulation, Visual Navigation, Imitation Learning.
+- <span class="entry-date">Sep 2016 - Jun 2020</span> B.Eng. in Engineering Mechanics (Tsien's Excellence Education Program), Tsinghua University.
 
 ## Experience
 
