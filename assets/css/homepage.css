@@ -1,4 +1,4 @@
-/* Homepage only; shared blog styles remain independent. */
+/* Shared palette, typography and navigation, followed by the homepage layout. */
 :root {
   color-scheme: light dark;
   --page: #fdfcfb;
@@ -13,7 +13,7 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 28px; }
-body.homepage {
+body.site-page {
   margin: 0;
   background: var(--page);
   color: var(--body);
@@ -162,7 +162,7 @@ strong, b { color: var(--ink); font-weight: 600; }
   .pub-row .teaser { width: 190px; }
 }
 @media (max-width: 560px) {
-  body.homepage { font-size: 14px; line-height: 1.8; }
+  body.site-page { font-size: 14px; line-height: 1.8; }
   .top-nav { margin: 0 22px; padding: 16px 0; gap: 12px; }
   .nav-name { font-size: 12px; white-space: nowrap; }
   .nav-links { gap: 14px; font-size: 11px; }

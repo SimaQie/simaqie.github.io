@@ -2,7 +2,8 @@
 {% assign post_counter_path = page.url | absolute_url | url_encode %}
 <p class="post-views">
   <a href="https://visitorbadge.io/status?path={{ post_counter_path }}" target="_blank" rel="noopener" aria-label="View statistics for this article" title="Cumulative article views; repeat visits may be counted">
-    <img src="https://api.visitorbadge.io/api/visitors?path={{ post_counter_path }}&amp;label=VIEWS&amp;countColor=%2357068c&amp;labelStyle=upper&amp;style=flat" alt="Article view count" height="20" />
+    <img src="https://api.visitorbadge.io/api/visitors?path={{ post_counter_path }}&amp;label=VIEWS&amp;countColor=%2357068c&amp;labelStyle=upper&amp;style=flat" alt="Article view count" height="20" onerror="this.hidden = true; this.nextElementSibling.hidden = false;">
+    <span class="post-views-fallback" hidden>View statistics <span aria-hidden="true">↗</span></span>
   </a>
   {% if site.post_views.started_on %}<span>since {{ site.post_views.started_on | date: "%b %d, %Y" }}</span>{% endif %}
 </p>

@@ -1,0 +1,9 @@
+<nav class="top-nav" aria-label="Main navigation">
+  <a class="nav-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <div class="nav-links">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
+    <a href="{% unless page.url == '/' %}{{ '/' | relative_url }}{% endunless %}#publications">Research</a>
+    <a href="{% unless page.url == '/' %}{{ '/' | relative_url }}{% endunless %}#experience">Experience</a>
+    <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} class="active" aria-current="{% if page.url == '/blog/' %}page{% else %}true{% endif %}"{% endif %}>Blog{% unless page.url contains '/blog/' %} <span aria-hidden="true">↗</span>{% endunless %}</a>
+  </div>
+</nav>

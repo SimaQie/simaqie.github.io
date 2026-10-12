@@ -1,49 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
-
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
-  {% if site.keywords %}  
-  <meta name="keywords" content="{{ site.keywords }}">
-  {% endif %}
-  {% if site.canonical %}
-  <link rel="canonical" href="{{ site.canonical }}" />
-  {% endif %}
-
-  <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/x-icon" />
-  <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/x-icon" />
-  <script src="{{ site.url }}/assets/js/favicon-switcher.js?v={{ site.time | date: '%s' }}" type="application/javascript"></script>
-
-  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
-    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css
-    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
-
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css?v={{ site.time | date: '%s' }}">
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/publications.css?v={{ site.time | date: '%s' }}">
-
+  {% include blog-head.html %}
 </head>
-
-<body class="page--plain">
-  <nav class="site-nav">
-    <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-    <a href="/blog/" {% if page.url contains '/blog/' %}class="active"{% endif %}>Blog</a>
-  </nav>
-
-  <main class="blog-page">
+<body class="site-page blog-theme" id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  {% include site-nav.html %}
+  <main class="blog-page" id="main-content" tabindex="-1">
     {{ content }}
   </main>
-
-  <footer class="blog-footer">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} · Powered by Jekyll &amp; <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a></p>
-  </footer>
-
-  <script src="{{ site.url }}/assets/js/scale.fix.js"></script>
+  {% include blog-footer.html %}
   {% if site.google_analytics %}
   <script>
     (function (i, s, o, g, r, a, m) {
@@ -57,5 +23,4 @@
   </script>
   {% endif %}
 </body>
-
 </html>
